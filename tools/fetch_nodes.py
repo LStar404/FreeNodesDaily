@@ -54,9 +54,9 @@ SOURCES = [
     "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2",
     "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
     "https://raw.githubusercontent.com/freefq/free/master/v2",
-    "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
+    "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/sub",
     "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
-    "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray",
+    "https://raw.githubusercontent.com/mfuu/FreeProxies/master/sub",
     # --- Shadowsocks 大户（这两个是「只给 Clash/v2rayN 测速」变成
     #     「也能给纯 Shadowsocks 客户端出订阅」的关键，没它们池子里基本没有 ss）---
     "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt",

@@ -1,0 +1,78 @@
+name: daily-nodes
+
+# 每天 07:00 (Asia/Shanghai) 跑一次：抓取 → mihomo 真实测速 → 导出多客户端订阅
+# → 把结果推到 data 分支。这样订阅地址是稳定 URL，而不是作者本机的一个文件。
+on:
+  schedule:
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-nodes
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pyyaml
+
+      - name: Unit tests
+        run: python -m unittest discover -s tools/tests -v
+
+      - name: Install mihomo
+        run: |
+          set -euo pipefail
+          url=$(python .github/scripts/resolve_mihomo.py)
+          echo "mihomo: $url"
+          curl -sSL -o mihomo.gz "$url"
+          gunzip -f mihomo.gz
+          chmod +x mihomo
+          ./mihomo -v
+
+      - name: Fetch + speed test + export
+        run: |
+          set -euo pipefail
+          python tools/daily_auto.py \
+            --force \
+            --skip-sync \
+            --mihomo "$PWD/mihomo" \
+            --out dist \
+            --top 60 \
+            --speed-top 100 \
+            --sample-seed 42
+
+      - name: Publish to data branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          kept=$(python -c 'import json;print(json.load(open("dist/summary.json"))["kept"])')
+          echo "kept=$kept nodes"
+          # dist 里是本轮产物；先搬出工作区，切孤儿分支后只剩它们
+          mkdir -p "$RUNNER_TEMP/out"
+          cp -r dist/. "$RUNNER_TEMP/out/"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan data
+          git rm -rf . >/dev/null 2>&1 || true
+          rm -rf tools android .github dist
+          cp -r "$RUNNER_TEMP/out/." .
+          git add -A
+          git commit -m "data: $(date -u +%Y-%m-%dT%H:%MZ) kept=${kept}"
+          git push -f origin data
