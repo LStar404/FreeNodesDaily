@@ -103,6 +103,16 @@ class ExportTest(unittest.TestCase):
         self.assertEqual(len(EF._by_type(proxies, ("ss",), 10)), 2)
 
 
+class SpeedLabelTest(unittest.TestCase):
+    def test_slow_speed_keeps_two_decimals(self):
+        self.assertEqual(DA.speed_label(0.04), "0.04MB/s")
+        self.assertEqual(DA.speed_label(0.071), "0.07MB/s")
+
+    def test_normal_speed_uses_one_decimal(self):
+        self.assertEqual(DA.speed_label(0.1), "0.1MB/s")
+        self.assertEqual(DA.speed_label(11.28), "11.3MB/s")
+
+
 class MirrorTest(unittest.TestCase):
     def test_raw_github_url_gets_mirrors(self):
         url = "https://raw.githubusercontent.com/a/b/main/c/yaml"

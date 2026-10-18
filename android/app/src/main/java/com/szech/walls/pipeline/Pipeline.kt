@@ -1,6 +1,7 @@
 package com.szech.walls.pipeline
 
 import com.szech.walls.core.Log
+import com.szech.walls.core.speedLabel
 import com.szech.walls.model.Node
 import com.szech.walls.net.Fetcher
 import com.szech.walls.net.TunnelFactory
@@ -339,7 +340,7 @@ object Pipeline {
         val out = ArrayList<Node>()
         for (n in result.take(cfg.keepTop)) {
             val node = if (cfg.labelSpeed && n.speed > 0 && !n.name.contains("MB/s")) {
-                n.withName(String.format("%.1fMB/s ", n.speed) + n.name)
+                n.withName(speedLabel(n.speed) + " " + n.name)
             } else {
                 n
             }

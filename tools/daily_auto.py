@@ -722,6 +722,14 @@ def should_run(state_file, min_hours):
     return True
 
 
+def speed_label(speed):
+    """节点名前的速度前缀：>=0.1 保留一位，更慢的保留两位。
+
+    否则 0.04MB/s 会被写成 "0.0MB/s"，看起来和「根本没测通」一样。
+    """
+    return f"{speed:.1f}MB/s" if speed >= 0.1 else f"{speed:.2f}MB/s"
+
+
 def choose_final(results, args):
     """挑选最终名单。
 
@@ -924,7 +932,7 @@ def main():
         p = dict(p)
         sp = speed_map.get(p["name"])
         if not args.no_label and not args.quick and sp is not None:
-            p["name"] = f"{sp:.1f}MB/s {p['name']}"
+            p["name"] = f"{speed_label(sp)} {p['name']}"
         final_proxies.append(p)
 
     gnames = [p["name"] for p in final_proxies]
@@ -961,7 +969,7 @@ def main():
             q = dict(p)
             sp = r.get('speed')
             if not args.no_label and not args.quick and sp is not None:
-                q['name'] = f"{sp:.1f}MB/s {q['name']}"
+                q['name'] = f"{speed_label(sp)} {q['name']}"
             labeled_pool.append(q)
         EF.write_all(args.out, final_proxies, pool=labeled_pool)
     except Exception as e:  # noqa: BLE001
