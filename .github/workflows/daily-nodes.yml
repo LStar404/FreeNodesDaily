@@ -40,10 +40,11 @@ jobs:
           set -euo pipefail
           url=$(python .github/scripts/resolve_mihomo.py)
           echo "mihomo: $url"
-          curl -sSL -o mihomo.gz "$url"
-          gunzip -f mihomo.gz
-          chmod +x mihomo
-          ./mihomo -v
+          # 放在 RUNNER_TEMP，别污染工作区（否则发布 data 分支时会把二进制一起提交）
+          curl -sSL -o "$RUNNER_TEMP/mihomo.gz" "$url"
+          gunzip -f "$RUNNER_TEMP/mihomo.gz"
+          chmod +x "$RUNNER_TEMP/mihomo"
+          "$RUNNER_TEMP/mihomo" -v
 
       - name: Fetch + speed test + export
         run: |
@@ -51,7 +52,7 @@ jobs:
           python tools/daily_auto.py \
             --force \
             --skip-sync \
-            --mihomo "$PWD/mihomo" \
+            --mihomo "$RUNNER_TEMP/mihomo" \
             --out dist \
             --top 60 \
             --speed-top 100 \
@@ -89,6 +90,7 @@ jobs:
           git checkout --orphan data
           git rm -rf . >/dev/null 2>&1 || true
           rm -rf tools android .github dist
+          rm -f mihomo mihomo.gz
           cp -r "$RUNNER_TEMP/out/." .
           git add -A
           git commit -m "data: $(date -u +%Y-%m-%dT%H:%MZ) kept=${kept}"
