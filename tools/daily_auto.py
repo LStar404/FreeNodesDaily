@@ -791,6 +791,8 @@ def main():
     ap.add_argument("--quick", action="store_true", help="只测延迟不测下载速度")
     ap.add_argument("--force", action="store_true", help="忽略 guard 强制运行")
     ap.add_argument("--skip-sync", action="store_true", help="不写 Clash Verge")
+    ap.add_argument("--no-discover", action="store_true",
+                    help="跳过聚合页自动发现新源（只用静态源，CI / 调试更快）")
     ap.add_argument("--no-label", action="store_true", help="不给节点名加实测速度前缀")
     args = ap.parse_args()
 
@@ -818,7 +820,11 @@ def main():
         pass
 
     # ===== 阶段 0：从聚合页发现新订阅源 =====
-    new_sources = discover_new_sources(args.timeout)
+    if args.no_discover:
+        print("跳过聚合页自动发现（--no-discover）")
+        new_sources = []
+    else:
+        new_sources = discover_new_sources(args.timeout)
     discovered = _load_discovered()
     for u in new_sources:
         if u not in discovered:
