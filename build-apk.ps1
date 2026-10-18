@@ -1,9 +1,9 @@
-﻿# 一键打手机安装包：可选自动升版本号 -> 编译 release -> 复制到「下载」目录
+# 一键打手机安装包：可选自动升版本号 -> 编译 release -> 复制到「下载」目录
 #
 # 用法：
-#   powershell -ExecutionPolicy Bypass -File D:\Walls\build-apk.ps1              # 版本号 +1 再编译
-#   powershell -ExecutionPolicy Bypass -File D:\Walls\build-apk.ps1 -NoBump      # 版本号不变，只重编
-#   powershell -ExecutionPolicy Bypass -File D:\Walls\build-apk.ps1 -Version 2.0 # 指定版本名（同时 versionCode +1）
+#   powershell -ExecutionPolicy Bypass -File .\build-apk.ps1              # 版本号 +1 再编译
+#   powershell -ExecutionPolicy Bypass -File .\build-apk.ps1 -NoBump      # 版本号不变，只重编
+#   powershell -ExecutionPolicy Bypass -File .\build-apk.ps1 -Version 2.0 # 指定版本名（同时 versionCode +1）
 #
 # 说明：Android 覆盖安装要求新包的 versionCode 大于已装的版本，所以默认会自增。
 
@@ -19,7 +19,7 @@ param(
 
 $ErrorActionPreference = 'Stop'
 
-$Root    = 'D:\Walls'
+$Root    = $PSScriptRoot
 $Android = Join-Path $Root 'android'
 $Gradle  = Join-Path $Android 'gradlew.bat'
 $Bkts    = Join-Path $Android 'app\build.gradle.kts'

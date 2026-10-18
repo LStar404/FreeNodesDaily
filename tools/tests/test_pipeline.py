@@ -8,8 +8,10 @@
 import json
 import os
 import sys
+import tempfile
 import types
 import unittest
+from unittest import mock
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -108,6 +110,33 @@ class MirrorTest(unittest.TestCase):
         self.assertEqual(out[0], url)
         self.assertTrue(any("jsdelivr.net" in u for u in out))
         self.assertTrue(any("gh-proxy.com" in u for u in out))
+
+    def test_mirror_first_moves_direct_to_end(self):
+        url = "https://raw.githubusercontent.com/a/b/main/c/yaml"
+        with mock.patch.dict(os.environ, {"FND_MIRROR_FIRST": "1"}):
+            out = DA.mirrors(url)
+        self.assertEqual(out[-1], url)
+        self.assertNotEqual(out[0], url)
+
+
+class MihomoLookupTest(unittest.TestCase):
+    def test_env_override_wins(self):
+        with tempfile.NamedTemporaryFile(delete=False) as f:
+            path = f.name
+        try:
+            with mock.patch.dict(os.environ, {"MIHOMO_BIN": path}):
+                self.assertEqual(DA.find_mihomo(), path)
+        finally:
+            os.unlink(path)
+
+
+class ChooseFinalTruncationTest(unittest.TestCase):
+    def test_respects_top(self):
+        results = [{"name": f"n{i}", "delay": 10 + i, "speed": 1.0} for i in range(5)]
+        final, tested, qualified = DA.choose_final(results, args(top=2))
+        self.assertEqual([r["name"] for r in final], ["n0", "n1"])
+        self.assertEqual(len(tested), 5)
+        self.assertEqual(qualified, 5)
 
 
 if __name__ == "__main__":
