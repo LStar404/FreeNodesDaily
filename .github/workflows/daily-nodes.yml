@@ -57,6 +57,23 @@ jobs:
             --speed-top 100 \
             --sample-seed 42
 
+      - name: Job summary
+        run: |
+          {
+            echo "### daily-nodes"
+            echo ""
+            echo '```json'
+            cat dist/summary.json
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: nodes-${{ github.run_number }}
+          path: dist
+          retention-days: 7
+
       - name: Publish to data branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

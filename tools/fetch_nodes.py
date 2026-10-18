@@ -49,7 +49,6 @@ SOURCES = [
     "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml",
     "https://raw.githubusercontent.com/shaoyouvip/free/refs/heads/main/all.yaml",
     "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
-    "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml",
     # --- Base64 / 通用列表源 ---
     "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2",
     "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2",
@@ -65,8 +64,6 @@ SOURCES = [
     "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt",
     "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt",
     "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
-    # --- 订阅列表页(自动展开其中链接) ---
-    "https://raw.githubusercontent.com/abshare/abshare.github.io/main/README.md#type=list",
 ]
 # ===========================================
 
