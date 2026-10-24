@@ -1,0 +1,245 @@
+{
+  "version": 1,
+  "servers": [
+    {
+      "id": "8f0282b3-f0e5-3175-8b46-9f92d360b9c6",
+      "remarks": "15.5MB/s 🇺🇸[www.v2nodes.com] ss-US-1602...",
+      "server": "95.215.201.18",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "20aebfbc-d01e-3537-ad05-446fbcacdfba",
+      "remarks": "11.4MB/s 🇺🇸US-216.105.168.18-0170 | 0.0MB",
+      "server": "216.105.168.18",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "hCCWOcIsK5wrFz4OX70rWf"
+    },
+    {
+      "id": "af9cdd64-f4b5-3819-b0c6-b44ac73faf74",
+      "remarks": "7.4MB/s 🇺🇸US-156.146.38.167-0085 | 129.328MB",
+      "server": "156.146.38.167",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "id": "1797332f-c90d-3b99-b5e6-178bc5e61cfb",
+      "remarks": "6.3MB/s 🇺🇸US-156.146.38.168-0088",
+      "server": "156.146.38.168",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "id": "de3d49d6-7092-3f1a-9320-11ee54d7b130",
+      "remarks": "5.1MB/s 🇺🇸US-185.215.132.9-0039 | 129.328MB",
+      "server": "185.215.132.9",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "8702abb7-bd13-37f7-8077-ce6d706c94b1",
+      "remarks": "4.1MB/s 🇺🇸[www.v2nodes.com] ss-US-1602... #2",
+      "server": "45.86.51.18",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "559c9187-e60e-3322-86ef-c2ff3ead4f7f",
+      "remarks": "4.1MB/s 🇺🇸[www.v2nodes.com] ss-US-1602... #3",
+      "server": "193.151.160.18",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "4829c04c-d313-3be1-82aa-589040fffa54",
+      "remarks": "4.1MB/s 🇨🇦CA-149.22.95.183-0098",
+      "server": "149.22.95.183",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "id": "91456b2a-9f76-31e3-98cd-1ac4ef0d7ea9",
+      "remarks": "3.9MB/s 🇺🇸[www.v2nodes.com] ss-US-1603... #2",
+      "server": "185.230.230.18",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "fb688d65-8b7c-3465-a152-7974385f2181",
+      "remarks": "3.6MB/s 🇺🇸[www.v2nodes.com] ss-US-1602... #1",
+      "server": "193.151.163.18",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "3a1ff564-8bff-3c37-839d-dd14946c9786",
+      "remarks": "2.8MB/s 🏳[www.v2nodes.com] ss- #3",
+      "server": "51.222.12.127",
+      "server_port": 445,
+      "method": "aes-256-gcm",
+      "password": "zDNVedRFPQexG9v"
+    },
+    {
+      "id": "412112df-f07f-3d18-9b48-39271b0bebc1",
+      "remarks": "2.5MB/s 🇨🇦CA-137.184.174.93-0064 | 12.002MB",
+      "server": "137.184.174.93",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
+    },
+    {
+      "id": "9601794e-cf84-3f31-82e4-f3a2935fc557",
+      "remarks": "1.7MB/s 🇬🇧GB-149.102.132.184-0166 | 2.082MB",
+      "server": "149.102.132.184",
+      "server_port": 80,
+      "method": "aes-256-gcm",
+      "password": "g5h5jleTRSyO3Rk4"
+    },
+    {
+      "id": "29ca0364-76f6-3911-9974-09ec1c757dab",
+      "remarks": "1.7MB/s 🇯🇵JP-149.22.87.240-0135 | 24.953MB",
+      "server": "149.22.87.240",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "id": "936c7d26-0a0a-3fe7-9ba9-60496960dac5",
+      "remarks": "1.6MB/s 🇬🇧GB-185.176.206.9-0043 | 80.943MB",
+      "server": "185.176.206.9",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "ce3f0909-9cce-3641-9112-591c8242e10b",
+      "remarks": "1.6MB/s 🇳🇱NL-193.29.139.204-0129 | 19.25MB",
+      "server": "193.29.139.204",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "id": "894bfc49-1f20-3304-a2d6-20c5fafc26f5",
+      "remarks": "1.6MB/s 🇬🇧GB-82.38.31.181-0087 | 67.748MB",
+      "server": "82.38.31.181",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "id": "cc5af311-09f5-3207-b9f9-c68ddbedd142",
+      "remarks": "1.6MB/s 🇬🇧GB-82.38.31.180-0063 | 67.003MB",
+      "server": "82.38.31.180",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "id": "0ad9d3c2-ce40-34f1-a5d6-2f1877326808",
+      "remarks": "1.6MB/s 🇬🇧GB-82.38.31.16-0112 | 18.909MB",
+      "server": "82.38.31.16",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "id": "d6cea211-f6ac-3bb7-a233-1733e7ba974c",
+      "remarks": "1.6MB/s 🇳🇱NL-193.29.139.223-0065 | 0.0MB",
+      "server": "193.29.139.223",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "id": "3fcb189d-d946-3e4e-a67c-69b2936f488a",
+      "remarks": "1.6MB/s 🇬🇧GB-82.38.31.62-0124 | 20.174MB",
+      "server": "82.38.31.62",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "id": "212aef43-a903-341a-8ce6-0e8ab5f8c81d",
+      "remarks": "1.6MB/s 🇬🇧GB-82.38.31.159-0109 | 19.472MB",
+      "server": "82.38.31.159",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "id": "91448233-0063-3ed1-9c64-eca2b2e20961",
+      "remarks": "1.5MB/s 🇬🇧GB-82.38.31.149-0108 | 18.244MB",
+      "server": "82.38.31.149",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "id": "416891c3-f6c6-38b3-bd54-551439882d6a",
+      "remarks": "1.5MB/s 🇬🇧GB-82.38.31.206-0082 | 69.021MB",
+      "server": "82.38.31.206",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "id": "6f29a03b-5755-38b5-9c22-92b76ca20b38",
+      "remarks": "1.5MB/s 🇬🇧GB-82.38.31.174-0102 | 19.354MB",
+      "server": "82.38.31.174",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "id": "3592a41c-040b-3471-b640-6d5e0a110911",
+      "remarks": "1.5MB/s 🇬🇧GB-82.38.31.207-0194 | 72.433MB",
+      "server": "82.38.31.207",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "id": "350502bf-db39-33aa-a49b-5c6ca92a9a17",
+      "remarks": "1.5MB/s 🇬🇧GB-82.38.31.82-0111 | 18.939MB",
+      "server": "82.38.31.82",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "id": "315eccda-9fff-3997-968a-c0d8de074707",
+      "remarks": "1.5MB/s 🇬🇧GB-82.38.31.42-0104 | 20.012MB",
+      "server": "82.38.31.42",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "id": "847f81ce-4070-30cf-a5b1-d84d605d5fda",
+      "remarks": "1.5MB/s 🇬🇧GB-82.38.31.155-0125 | 23.398MB",
+      "server": "82.38.31.155",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "id": "03ee2879-c0eb-33ac-98c3-41380a942370",
+      "remarks": "1.4MB/s UA-104.253.216.227-0168 | 0.263MB",
+      "server": "staging.lastilhame.monster",
+      "server_port": 49917,
+      "method": "chacha20-ietf-poly1305",
+      "password": "G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP"
+    }
+  ]
+}
