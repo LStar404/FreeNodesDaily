@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-10-31 02:01:40",
+  "quick": false,
+  "fetched": 600,
+  "alive": 219,
+  "qualified": 75,
+  "kept": 61,
+  "sources_ok": 20,
+  "sources_fail": 1,
+  "min_speed_mbps": 0.2
+}

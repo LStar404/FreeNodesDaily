@@ -1,0 +1,510 @@
+proxies:
+- name: 16.8MB/s 🇺🇸US_5|1.4MB/s
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 16.4MB/s 🇺🇸US_4|2.2MB/s
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 15.2MB/s 🇺🇸US-95.215.201.18-0195 | 27.667MB
+  server: 95.215.201.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 13.7MB/s 🇺🇸US_8|1.2MB/s
+  port: 443
+  server: 129.153.93.183
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 13.6MB/s 🇺🇸US_6|1.0MB/s
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 12.1MB/s 🇺🇸US_4|3.6MB/s
+  port: 443
+  server: zebpay.site
+  skip-cert-verify: false
+  tls: true
+  type: http
+- name: 9.6MB/s 🇺🇸US-156.146.38.168-0171 | 56.531MB
+  server: 156.146.38.168
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 9.0MB/s 🇺🇸US-156.146.38.170-0187 | 99.1MB
+  server: 156.146.38.170
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 7.9MB/s 🇺🇸US_7|1.8MB/s
+  port: 443
+  server: 23.133.176.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 7.6MB/s 🇺🇸US-216.106.186.33-0140 | 126.987MB
+  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  port: 443
+  type: trojan
+  password: f0eb8c92ce8946aaba856569cff1a16b
+  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  skip-cert-verify: false
+- name: 6.8MB/s 🇺🇸US-173.244.56.6-0210 | 116.741MB
+  server: 173.244.56.6
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 6.7MB/s 🇨🇦CA-149.22.95.183-0186 | 27.968MB
+  server: 149.22.95.183
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 6.6MB/s 🇺🇸US_12|2.9MB/s
+  port: 443
+  server: 12.221.146.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 6.0MB/s US_speednode_0039
+  port: 8443
+  server: 44.248.167.117
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 5.3MB/s 🇺🇸US-216.152.155.23-0201 | 143.52MB
+  server: 216.152.155.23
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.nextjobopportunityandclaimyouridealrole.com
+  skip-cert-verify: false
+- name: 4.5MB/s 🇺🇸US-45.86.51.18-0136 | 398.447MB
+  server: 45.86.51.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 4.5MB/s 🇺🇸US_10|3.0MB/s
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 4.4MB/s 🇺🇸US_14|3.1MB/s
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 3.6MB/s 🇺🇸US_14|3.0MB/s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: '3.5MB/s 🇺🇸 美国 | USA #7'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-us-004.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-004.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: 2.9MB/s 🇨🇦CA_1|2.4MB/s
+  port: 443
+  server: 206.223.183.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 2.6MB/s 🇳🇱 荷兰 | NLD 5
+  server: steel7.hadsvpn.com
+  port: 443
+  type: hysteria2
+  password: 23c82941-70f4-4381-90db-bd28e9a902e9
+  auth: 23c82941-70f4-4381-90db-bd28e9a902e9
+  sni: steel7.hadsvpn.com
+  skip-cert-verify: true
+- name: '2.4MB/s Telegram@vpnjey #6'
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+  password: VPNJEY
+  port: 36264
+  server: 179.61.138.145
+  skip-cert-verify: true
+  sni: de2.jey.cc.cd
+  tls: false
+  type: hysteria2
+- name: 2.3MB/s 🇬🇧[www.v2nodes.com] ss-GB-1602...
+  type: ss
+  server: 185.176.206.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 2.3MB/s 🇳🇱NL-109.201.152.181-0200 | 27.034MB
+  server: 109.201.152.181
+  port: 443
+  type: ss
+  cipher: aes-128-cfb
+  password: shadowsocks
+- cipher: aes-128-gcm
+  name: 2.2MB/s 🏳[www.v2nodes.com] ss-
+  password: shadowsocks
+  port: 443
+  server: 158.173.24.73
+  type: ss
+- name: 2.1MB/s 🇮🇪IE_2|2.2MB/s
+  port: 443
+  server: 34.249.214.108
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 2.1MB/s IE_speednode_0013
+  server: 34.249.214.108
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- client-fingerprint: safari
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 3e99d50d5740985d
+  name: 2.0MB/s 🇳🇱 荷兰 | NLD 7
+  network: grpc
+  port: 443
+  server: 189.74.114.119
+  servername: api.mediaklenov.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: abd5755a-8b77-4ed4-afbd-f2ccbc08e6f5
+- name: 2.0MB/s 🇬🇧GB-82.38.31.62-0149
+  type: ss
+  server: 82.38.31.62
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 2.0MB/s 🇬🇧GB-82.38.31.205-0112
+  type: ss
+  server: 82.38.31.205
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 2.0MB/s 🇬🇧GB-82.38.31.162-0224 | 14.591MB
+  server: 82.38.31.162
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 2.0MB/s FR_speednode_0010
+  server: 51.159.225.196
+  port: 23856
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 2.0MB/s FR_speednode_0012
+  server: 82.65.162.76
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 2.0MB/s 🇬🇧GB-82.38.31.206-0155 | 0.0MB
+  server: 82.38.31.206
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 2.0MB/s FR_speednode_0011
+  server: 51.159.225.196
+  port: 23856
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: '2.0MB/s 🇩🇪 德国 | DEU #6'
+  type: vless
+  server: 140.225.208.60
+  port: 2083
+  uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  cipher: auto
+  network: ws
+  tls: true
+  servername: speedtestmark.com
+  client-fingerprint: safari
+  ws-opts:
+    path: /vless-ws
+- name: 2.0MB/s 🇨🇦[www.v2nodes.com] ss-CA-1559...
+  type: ss
+  server: 51.222.141.125
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: safari
+  name: 1.9MB/s 🇩🇪DE_11|2.4MB/s
+  network: ws
+  port: '2083'
+  server: 140.225.208.60
+  servername: speedtestmark.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Chrome/12.0.742.100 Safari/534.30
+    path: /vless-ws
+  xudp: true
+- name: 1.9MB/s FR_speednode_0008
+  server: 51.159.225.197
+  port: 19362
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 1.9MB/s 🇳🇱NL_7|4.3MB/s
+  port: 23856
+  server: 51.159.225.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1.9MB/s NL_speednode_0025
+  server: 84.17.47.149
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 1.9MB/s NL_speednode_0023
+  server: 84.17.47.124
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 1.9MB/s NL_speednode_0024
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 1.9MB/s 🇩🇪DE-193.108.119.15-2853 | 122.875MB
+  server: 193.108.119.15
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.iloverussia2026.com
+  skip-cert-verify: false
+- name: 1.9MB/s 🇯🇵JP_1|1.3MB/s
+  port: 343
+  server: 133.18.200.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1.9MB/s 🇳🇱NL_16|3.5MB/s
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1.9MB/s 🇳🇱NL_13|4.4MB/s
+  port: 443
+  server: 51.158.243.91
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1.9MB/s 🇳🇱NL_11|1.3MB/s
+  port: 9002
+  server: 84.17.47.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1.9MB/s 🇫🇷 法国 | FRA
+  type: vless
+  server: 199.232.78.160
+  port: 443
+  uuid: XpnTeam-68
+  cipher: auto
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+- name: 1.9MB/s NL_speednode_0026
+  server: 84.17.47.125
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 1.9MB/s 🇬🇧GB-82.38.31.207-0110
+  type: ss
+  server: 82.38.31.207
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 1.9MB/s 🇳🇱NL_11|3.0MB/s
+  port: 9002
+  server: 84.17.47.126
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1.9MB/s 🇳🇱NL_8|2.8MB/s
+  port: 9002
+  server: 84.17.47.150
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '1.9MB/s 🇬🇧 英国 | GBR #1'
+  password: 5t6i121em5lkmsmk
+  port: 29813
+  server: en001.zestapp778.com
+  skip-cert-verify: true
+  sni: en001.zestapp778.com
+  type: trojan
+  udp: true
+- name: 1.8MB/s DE_speednode_0004
+  server: 213.109.163.119
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 1.8MB/s DK_speednode_0005
+  server: 158.173.154.5
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 1.8MB/s DK_speednode_0006
+  server: 158.173.154.1
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 1.8MB/s 🇬🇧GB-82.38.31.181-0156 | 0.0MB
+  server: 82.38.31.181
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 1.8MB/s 🇩🇪DE_3|3.4MB/s
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '1.8MB/s 🇬🇧[www.v2nodes.com] vless-GB-1... #6'
+  type: vless
+  server: 51.38.71.147
+  port: 8443
+  uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
+  cipher: auto
+  tls: true
+  servername: node-uk.connectsuite.org
+  client-fingerprint: firefox
+proxy-groups:
+- name: 🚀 自动选择
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies: &id001
+  - 16.8MB/s 🇺🇸US_5|1.4MB/s
+  - 16.4MB/s 🇺🇸US_4|2.2MB/s
+  - 15.2MB/s 🇺🇸US-95.215.201.18-0195 | 27.667MB
+  - 13.7MB/s 🇺🇸US_8|1.2MB/s
+  - 13.6MB/s 🇺🇸US_6|1.0MB/s
+  - 12.1MB/s 🇺🇸US_4|3.6MB/s
+  - 9.6MB/s 🇺🇸US-156.146.38.168-0171 | 56.531MB
+  - 9.0MB/s 🇺🇸US-156.146.38.170-0187 | 99.1MB
+  - 7.9MB/s 🇺🇸US_7|1.8MB/s
+  - 7.6MB/s 🇺🇸US-216.106.186.33-0140 | 126.987MB
+  - 6.8MB/s 🇺🇸US-173.244.56.6-0210 | 116.741MB
+  - 6.7MB/s 🇨🇦CA-149.22.95.183-0186 | 27.968MB
+  - 6.6MB/s 🇺🇸US_12|2.9MB/s
+  - 6.0MB/s US_speednode_0039
+  - 5.3MB/s 🇺🇸US-216.152.155.23-0201 | 143.52MB
+  - 4.5MB/s 🇺🇸US-45.86.51.18-0136 | 398.447MB
+  - 4.5MB/s 🇺🇸US_10|3.0MB/s
+  - 4.4MB/s 🇺🇸US_14|3.1MB/s
+  - 3.6MB/s 🇺🇸US_14|3.0MB/s
+  - '3.5MB/s 🇺🇸 美国 | USA #7'
+  - 2.9MB/s 🇨🇦CA_1|2.4MB/s
+  - 2.6MB/s 🇳🇱 荷兰 | NLD 5
+  - '2.4MB/s Telegram@vpnjey #6'
+  - 2.3MB/s 🇬🇧[www.v2nodes.com] ss-GB-1602...
+  - 2.3MB/s 🇳🇱NL-109.201.152.181-0200 | 27.034MB
+  - 2.2MB/s 🏳[www.v2nodes.com] ss-
+  - 2.1MB/s 🇮🇪IE_2|2.2MB/s
+  - 2.1MB/s IE_speednode_0013
+  - 2.0MB/s 🇳🇱 荷兰 | NLD 7
+  - 2.0MB/s 🇬🇧GB-82.38.31.62-0149
+  - 2.0MB/s 🇬🇧GB-82.38.31.205-0112
+  - 2.0MB/s 🇬🇧GB-82.38.31.162-0224 | 14.591MB
+  - 2.0MB/s FR_speednode_0010
+  - 2.0MB/s FR_speednode_0012
+  - 2.0MB/s 🇬🇧GB-82.38.31.206-0155 | 0.0MB
+  - 2.0MB/s FR_speednode_0011
+  - '2.0MB/s 🇩🇪 德国 | DEU #6'
+  - 2.0MB/s 🇨🇦[www.v2nodes.com] ss-CA-1559...
+  - 1.9MB/s 🇩🇪DE_11|2.4MB/s
+  - 1.9MB/s FR_speednode_0008
+  - 1.9MB/s 🇳🇱NL_7|4.3MB/s
+  - 1.9MB/s NL_speednode_0025
+  - 1.9MB/s NL_speednode_0023
+  - 1.9MB/s NL_speednode_0024
+  - 1.9MB/s 🇩🇪DE-193.108.119.15-2853 | 122.875MB
+  - 1.9MB/s 🇯🇵JP_1|1.3MB/s
+  - 1.9MB/s 🇳🇱NL_16|3.5MB/s
+  - 1.9MB/s 🇳🇱NL_13|4.4MB/s
+  - 1.9MB/s 🇳🇱NL_11|1.3MB/s
+  - 1.9MB/s 🇫🇷 法国 | FRA
+  - 1.9MB/s NL_speednode_0026
+  - 1.9MB/s 🇬🇧GB-82.38.31.207-0110
+  - 1.9MB/s 🇳🇱NL_11|3.0MB/s
+  - 1.9MB/s 🇳🇱NL_8|2.8MB/s
+  - '1.9MB/s 🇬🇧 英国 | GBR #1'
+  - 1.8MB/s DE_speednode_0004
+  - 1.8MB/s DK_speednode_0005
+  - 1.8MB/s DK_speednode_0006
+  - 1.8MB/s 🇬🇧GB-82.38.31.181-0156 | 0.0MB
+  - 1.8MB/s 🇩🇪DE_3|3.4MB/s
+  - '1.8MB/s 🇬🇧[www.v2nodes.com] vless-GB-1... #6'
+- name: 🐟 手动选择(按速度排序)
+  type: select
+  proxies: *id001
+rules:
+- MATCH,🚀 自动选择
