@@ -1,0 +1,242 @@
+[
+  {
+    "server": "88.216.254.18",
+    "server_port": 1080,
+    "password": "V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA",
+    "method": "chacha20-ietf-poly1305",
+    "remarks": "14.9MB/s 🇺🇸 美国 | USA 5",
+    "timeout": 300
+  },
+  {
+    "server": "156.146.38.167",
+    "server_port": 443,
+    "password": "shadowsocks",
+    "method": "aes-128-gcm",
+    "remarks": "12.1MB/s 🇺🇸US-156.146.38.167-5356 | 94.566MB",
+    "timeout": 300
+  },
+  {
+    "server": "167.88.62.203",
+    "server_port": 19999,
+    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+    "method": "aes-256-gcm",
+    "remarks": "11.6MB/s 🇺🇸[www.v2nodes.com] ss-US-1616... #1",
+    "timeout": 300
+  },
+  {
+    "server": "37.19.198.244",
+    "server_port": 443,
+    "password": "shadowsocks",
+    "method": "aes-128-gcm",
+    "remarks": "8.6MB/s 🇺🇸US-37.19.198.244-0143 | 61.997MB",
+    "timeout": 300
+  },
+  {
+    "server": "37.19.198.243",
+    "server_port": 443,
+    "password": "shadowsocks",
+    "method": "aes-128-gcm",
+    "remarks": "7.9MB/s 🇺🇸US-37.19.198.243-0147 | 69.352MB",
+    "timeout": 300
+  },
+  {
+    "server": "137.184.174.93",
+    "server_port": 8080,
+    "password": "14fFPrbezE3HDZzsMOr6",
+    "method": "rc4-md5",
+    "remarks": "7.7MB/s 🇨🇦CA-137.184.174.93-0176 | 37.538MB",
+    "timeout": 300
+  },
+  {
+    "server": "38.128.66.32",
+    "server_port": 19999,
+    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+    "method": "aes-256-gcm",
+    "remarks": "7.4MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #9",
+    "timeout": 300
+  },
+  {
+    "server": "172.111.36.123",
+    "server_port": 19999,
+    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+    "method": "aes-256-gcm",
+    "remarks": "7.4MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #11",
+    "timeout": 300
+  },
+  {
+    "server": "38.121.43.225",
+    "server_port": 19999,
+    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+    "method": "aes-256-gcm",
+    "remarks": "7.4MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #1",
+    "timeout": 300
+  },
+  {
+    "server": "167.88.63.99",
+    "server_port": 19999,
+    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+    "method": "aes-256-gcm",
+    "remarks": "7.3MB/s 🇺🇸US-167.88.63.99-2463 | 60.936MB",
+    "timeout": 300
+  },
+  {
+    "server": "38.121.43.18",
+    "server_port": 19999,
+    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+    "method": "aes-256-gcm",
+    "remarks": "7.0MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #6",
+    "timeout": 300
+  },
+  {
+    "server": "137.184.89.151",
+    "server_port": 19999,
+    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+    "method": "aes-256-gcm",
+    "remarks": "6.9MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #7",
+    "timeout": 300
+  },
+  {
+    "server": "38.22.17.129",
+    "server_port": 19999,
+    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+    "method": "aes-256-gcm",
+    "remarks": "6.8MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #12",
+    "timeout": 300
+  },
+  {
+    "server": "149.40.57.133",
+    "server_port": 19999,
+    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+    "method": "aes-256-gcm",
+    "remarks": "6.7MB/s 🇺🇸US-149.40.57.133-2468 | 60.585MB",
+    "timeout": 300
+  },
+  {
+    "server": "198.98.53.130",
+    "server_port": 443,
+    "password": "eDfN7SODQceIOmIAbtJJtK",
+    "method": "chacha20-ietf-poly1305",
+    "remarks": "6.3MB/s 🇺🇸US-198.98.53.130-0281 | 187.447MB",
+    "timeout": 300
+  },
+  {
+    "server": "38.91.100.39",
+    "server_port": 19999,
+    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+    "method": "aes-256-gcm",
+    "remarks": "6.0MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #8",
+    "timeout": 300
+  },
+  {
+    "server": "162.251.62.31",
+    "server_port": 19999,
+    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+    "method": "aes-256-gcm",
+    "remarks": "5.8MB/s 🇺🇸US-162.251.62.31-2471",
+    "timeout": 300
+  },
+  {
+    "server": "169.197.142.68",
+    "server_port": 19999,
+    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+    "method": "aes-256-gcm",
+    "remarks": "5.5MB/s 🇺🇸US-169.197.142.68-2470 | 76.276MB",
+    "timeout": 300
+  },
+  {
+    "server": "185.230.230.18",
+    "server_port": 19999,
+    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+    "method": "aes-256-gcm",
+    "remarks": "5.4MB/s 🇺🇸US-185.230.230.18-0199 | 232.194MB",
+    "timeout": 300
+  },
+  {
+    "server": "173.244.56.6",
+    "server_port": 443,
+    "password": "shadowsocks",
+    "method": "aes-128-gcm",
+    "remarks": "5.3MB/s 🇺🇸US-173.244.56.6-0191 | 77.605MB",
+    "timeout": 300
+  },
+  {
+    "server": "64.177.90.30",
+    "server_port": 8388,
+    "password": "BWyPPTusFKhGgzKh",
+    "method": "aes-256-gcm",
+    "remarks": "5.3MB/s 🇲🇽[www.v2nodes.com] ss-MX-1564...",
+    "timeout": 300
+  },
+  {
+    "server": "173.244.56.9",
+    "server_port": 443,
+    "password": "shadowsocks",
+    "method": "aes-128-gcm",
+    "remarks": "4.9MB/s 🇺🇸US-173.244.56.9-0190 | 57.816MB",
+    "timeout": 300
+  },
+  {
+    "server": "38.114.120.221",
+    "server_port": 19999,
+    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+    "method": "aes-256-gcm",
+    "remarks": "2.7MB/s 🇬🇧[www.v2nodes.com] ss-GB-1615... #1",
+    "timeout": 300
+  },
+  {
+    "server": "5.188.181.201",
+    "server_port": 9030,
+    "password": "GeregetR8cvQHzYr",
+    "method": "aes-256-cfb",
+    "remarks": "2.7MB/s 🇪🇸ES-5.188.181.201-7459 | 4.726MB",
+    "timeout": 300
+  },
+  {
+    "server": "158.173.24.73",
+    "server_port": 443,
+    "password": "shadowsocks",
+    "method": "aes-128-gcm",
+    "remarks": "2.7MB/s 🇬🇧[www.v2nodes.com] ss-GB-1451...",
+    "timeout": 300
+  },
+  {
+    "server": "151.241.19.29",
+    "server_port": 19999,
+    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+    "method": "aes-256-gcm",
+    "remarks": "2.6MB/s AE-151.241.19.29-0148 | 96.057MB",
+    "timeout": 300
+  },
+  {
+    "server": "151.241.19.36",
+    "server_port": 19999,
+    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+    "method": "aes-256-gcm",
+    "remarks": "2.5MB/s 🇳🇱[www.v2nodes.com] ss-NL-1614...",
+    "timeout": 300
+  },
+  {
+    "server": "82.38.31.212",
+    "server_port": 8080,
+    "password": "k1dBOmOB4oqi7Ump37a1bQ",
+    "method": "chacha20-ietf-poly1305",
+    "remarks": "2.4MB/s 🇬🇧GB-82.38.31.212-0181 | 78.42MB",
+    "timeout": 300
+  },
+  {
+    "server": "82.38.31.49",
+    "server_port": 8080,
+    "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+    "method": "chacha20-ietf-poly1305",
+    "remarks": "2.4MB/s 🇬🇧GB-82.38.31.49-0233 | 23.394MB",
+    "timeout": 300
+  },
+  {
+    "server": "178.83.185.156",
+    "server_port": 8080,
+    "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+    "method": "chacha20-ietf-poly1305",
+    "remarks": "2.4MB/s 🇬🇧GB-178.83.185.156-0280 | 21.186MB",
+    "timeout": 300
+  }
+]

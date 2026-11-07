@@ -1,0 +1,520 @@
+proxies:
+- name: 17.6MB/s 🇩🇪DE_6|1.1MB/s
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 14.9MB/s 🇩🇪DE_10|2.1MB/s
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 14.9MB/s 🇺🇸 美国 | USA 5
+  server: 88.216.254.18
+  port: 1080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA
+  udp: true
+- name: 13.5MB/s 🇩🇪DE_4|3.4MB/s
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 12.5MB/s 🧿95@oneclickvpnkeys
+  password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
+  port: 443
+  server: f452bbe9-tmm5c0-tpda83-1lkbs.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: f452bbe9-tmm5c0-tpda83-1lkbs.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: 12.4MB/s 🧿100@oneclickvpnkeys
+  password: 203d1d64-3313-11ed-bb74-f23c9164ca5d
+  port: 443
+  server: fbe34f09-tmm5c0-trpvht-1ey07.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: fbe34f09-tmm5c0-trpvht-1ey07.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: 12.1MB/s 🇺🇸US-156.146.38.167-5356 | 94.566MB
+  server: 156.146.38.167
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- cipher: aes-256-gcm
+  name: '11.6MB/s 🇺🇸[www.v2nodes.com] ss-US-1616... #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 167.88.62.203
+  type: ss
+- name: 11.0MB/s 🧿97@oneclickvpnkeys
+  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+  port: 443
+  server: 807fc395-tmm5c0-u5ip77-duku.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: 807fc395-tmm5c0-u5ip77-duku.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: 10.0MB/s 🧿94@oneclickvpnkeys
+  password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
+  port: 443
+  server: b8c1a181-tmm5c0-twuk0i-1hzyr.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: b8c1a181-tmm5c0-twuk0i-1hzyr.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: 8.8MB/s 🧿98@oneclickvpnkeys
+  type: hysteria2
+  server: 0b28dbb8-tmm5c0-tn3jhp-1qthu.los.hyhuawei.com
+  port: 443
+  password: 8fa4bea0-8703-11ef-83cc-f23c913c8d2b
+  sni: 0b28dbb8-tmm5c0-tn3jhp-1qthu.los.hyhuawei.com
+  skip-cert-verify: true
+- name: 8.6MB/s 🇺🇸US-37.19.198.244-0143 | 61.997MB
+  server: 37.19.198.244
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 8.6MB/s 🇺🇸US_4|1.4MB/s
+  port: 443
+  server: 12.202.180.118
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 8.1MB/s 🧿96@oneclickvpnkeys
+  type: hysteria2
+  server: ca3ddbd3-tmm5c0-tw2fdz-1s824.los.hyhuawei.com
+  port: 443
+  password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+  sni: ca3ddbd3-tmm5c0-tw2fdz-1s824.los.hyhuawei.com
+- name: 8.0MB/s 🇺🇸US_13|1.7MB/s
+  port: 443
+  server: 198.44.135.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 7.9MB/s 🇺🇸US-37.19.198.243-0147 | 69.352MB
+  server: 37.19.198.243
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 7.9MB/s 🇺🇸US_1|1.5MB/s
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 7.7MB/s 🇨🇦CA-137.184.174.93-0176 | 37.538MB
+  server: 137.184.174.93
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 7.5MB/s 🇺🇸US_14|2.9MB/s
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 7.5MB/s 🇨🇦CA_2|1.9MB/s
+  port: 443
+  server: 206.223.161.47
+  skip-cert-verify: true
+  tls: true
+  type: http
+- cipher: aes-256-gcm
+  name: '7.4MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #9'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 38.128.66.32
+  type: ss
+- cipher: aes-256-gcm
+  name: '7.4MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #11'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 172.111.36.123
+  type: ss
+- cipher: aes-256-gcm
+  name: '7.4MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 38.121.43.225
+  type: ss
+- name: 7.3MB/s 🇺🇸US-167.88.63.99-2463 | 60.936MB
+  server: 167.88.63.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 7.3MB/s 🇺🇸US-170.101.101.67-0152 | 3.523MB
+  server: 170.101.101.67
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.explorecreativejobsandenhanceyourcareerportfolio.com
+  skip-cert-verify: false
+- cipher: aes-256-gcm
+  name: '7.0MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #6'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 38.121.43.18
+  type: ss
+- cipher: aes-256-gcm
+  name: '6.9MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #7'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 137.184.89.151
+  type: ss
+- cipher: aes-256-gcm
+  name: '6.8MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #12'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 38.22.17.129
+  type: ss
+- name: 6.7MB/s 🇺🇸US-149.40.57.133-2468 | 60.585MB
+  server: 149.40.57.133
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 6.6MB/s 🇺🇸US_4|1.5MB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 6.5MB/s 🇨🇦CA_1|1.2MB/s
+  port: 9443
+  server: 198.44.157.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 6.3MB/s 🇺🇸US-198.98.53.130-0281 | 187.447MB
+  server: 198.98.53.130
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: eDfN7SODQceIOmIAbtJJtK
+- name: 6.2MB/s 🇺🇸US_6|1.7MB/s
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 6.1MB/s 🇺🇸US-38.60.157.143-2508 | 6.499MB
+  server: us001.zestapp778.com
+  port: 57277
+  type: trojan
+  password: 5t6i121em5lkmsmk
+  sni: us001.zestapp778.com
+  skip-cert-verify: false
+- name: 6.1MB/s 🇺🇸US_7|3.3MB/s
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 6.1MB/s 🇺🇸US_15|1.4MB/s
+  port: 9443
+  server: 149.88.21.140
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 6.1MB/s 🇺🇸US_12|2.8MB/s
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 6.0MB/s 🇺🇸US_9|3.4MB/s
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '6.0MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #8'
+  type: ss
+  server: 38.91.100.39
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 5.8MB/s 🇺🇸US-162.251.62.31-2471
+  type: ss
+  server: 162.251.62.31
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 5.8MB/s 🇺🇸US-169.197.140.218-0142 | 68.348MB
+  server: 169.197.140.218
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
+  skip-cert-verify: false
+- name: 5.5MB/s 🇺🇸US-169.197.142.68-2470 | 76.276MB
+  server: 169.197.142.68
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 5.4MB/s 🇺🇸US-185.230.230.18-0199 | 232.194MB
+  server: 185.230.230.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 5.3MB/s 🇺🇸US-173.244.56.6-0191 | 77.605MB
+  server: 173.244.56.6
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 5.3MB/s 🇲🇽[www.v2nodes.com] ss-MX-1564...
+  type: ss
+  server: 64.177.90.30
+  port: 8388
+  cipher: aes-256-gcm
+  password: BWyPPTusFKhGgzKh
+  udp: true
+- name: 4.9MB/s 🇺🇸US-173.244.56.9-0190 | 57.816MB
+  server: 173.244.56.9
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: '4.8MB/s 🇨🇦[www.v2nodes.com] trojan-CA-... #3'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.152
+  sni: learn.connectingpeoplewithgreatjobs.com
+  type: trojan
+- name: 4.7MB/s 🇺🇸US_3|1.8MB/s
+  port: 443
+  server: 192.227.176.234
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 4.2MB/s US_speednode_0040
+  server: 38.247.141.135
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 4.0MB/s 🇺🇸US_2|1.5MB/s
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
+  name: 4.0MB/s 🇺🇸US_1|2.4MB/s
+  network: ws
+  port: '443'
+  server: 199.232.249.131
+  servername: community.fastly.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 33751cb1-43ea-458c-8dc5-0b8993746bce
+  ws-opts:
+    headers:
+      Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: '/?TELEGRAM-----TOOTFFARANGI '
+  xudp: true
+- name: 3.1MB/s @confiig_hub
+  type: hysteria2
+  server: 130.49.161.70
+  port: 443
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  sni: hy2.aspidnet.xyz
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+- cipher: aes-256-gcm
+  name: '2.7MB/s 🇬🇧[www.v2nodes.com] ss-GB-1615... #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 38.114.120.221
+  type: ss
+- name: 2.7MB/s 🇪🇸ES-5.188.181.201-7459 | 4.726MB
+  server: 5.188.181.201
+  port: 9030
+  type: ss
+  cipher: aes-256-cfb
+  password: GeregetR8cvQHzYr
+- name: '2.7MB/s Telegram@vpnjey #4'
+  type: hysteria2
+  server: 179.61.138.145
+  port: 36264
+  password: vpnJey
+  sni: de2.jey.cc.cd
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+- cipher: aes-128-gcm
+  name: 2.7MB/s 🇬🇧[www.v2nodes.com] ss-GB-1451...
+  password: shadowsocks
+  port: 443
+  server: 158.173.24.73
+  type: ss
+- name: 2.6MB/s AE-151.241.19.29-0148 | 96.057MB
+  server: 151.241.19.29
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 2.5MB/s 🇬🇧GB_3|1.0MB/s
+  port: 9443
+  server: 84.17.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 2.5MB/s 🇳🇱[www.v2nodes.com] ss-NL-1614...
+  type: ss
+  server: 151.241.19.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 2.5MB/s 🇳🇱 荷兰 | NLD 8
+  server: 89.105.218.138
+  port: 443
+  type: vless
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: 428ef87fd47a3a32
+  servername: golos.mail.ru
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- name: '0.3MB/s 🇺🇸 美国 | USA #4'
+  type: vmess
+  server: 104.21.7.133
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+- name: '2.0MB/s 🇩🇪 德国 | DEU #3'
+  type: vless
+  server: sino.bestsellers1.site
+  port: 2083
+  uuid: 0386df1b-7abd-4676-f3c6-d65d691023b9
+  cipher: auto
+  network: ws
+  tls: true
+  servername: sino.bestsellers1.site
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: sino.bestsellers1.site
+- name: 1.2MB/s 🇯🇵[www.v2nodes.com] vless-JP-1...
+  network: ws
+  port: 8080
+  server: 104.21.70.21
+  servername: nautica-cff.kloningstrife002.workers.dev
+  tls: false
+  type: vless
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  ws-opts:
+    headers:
+      Host: nautica-cff.kloningstrife002.workers.dev
+    path: /138.2.74.219-28616
+proxy-groups:
+- name: 🚀 自动选择
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  proxies: &id001
+  - 17.6MB/s 🇩🇪DE_6|1.1MB/s
+  - 14.9MB/s 🇩🇪DE_10|2.1MB/s
+  - 14.9MB/s 🇺🇸 美国 | USA 5
+  - 13.5MB/s 🇩🇪DE_4|3.4MB/s
+  - 12.5MB/s 🧿95@oneclickvpnkeys
+  - 12.4MB/s 🧿100@oneclickvpnkeys
+  - 12.1MB/s 🇺🇸US-156.146.38.167-5356 | 94.566MB
+  - '11.6MB/s 🇺🇸[www.v2nodes.com] ss-US-1616... #1'
+  - 11.0MB/s 🧿97@oneclickvpnkeys
+  - 10.0MB/s 🧿94@oneclickvpnkeys
+  - 8.8MB/s 🧿98@oneclickvpnkeys
+  - 8.6MB/s 🇺🇸US-37.19.198.244-0143 | 61.997MB
+  - 8.6MB/s 🇺🇸US_4|1.4MB/s
+  - 8.1MB/s 🧿96@oneclickvpnkeys
+  - 8.0MB/s 🇺🇸US_13|1.7MB/s
+  - 7.9MB/s 🇺🇸US-37.19.198.243-0147 | 69.352MB
+  - 7.9MB/s 🇺🇸US_1|1.5MB/s
+  - 7.7MB/s 🇨🇦CA-137.184.174.93-0176 | 37.538MB
+  - 7.5MB/s 🇺🇸US_14|2.9MB/s
+  - 7.5MB/s 🇨🇦CA_2|1.9MB/s
+  - '7.4MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #9'
+  - '7.4MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #11'
+  - '7.4MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #1'
+  - 7.3MB/s 🇺🇸US-167.88.63.99-2463 | 60.936MB
+  - 7.3MB/s 🇺🇸US-170.101.101.67-0152 | 3.523MB
+  - '7.0MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #6'
+  - '6.9MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #7'
+  - '6.8MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #12'
+  - 6.7MB/s 🇺🇸US-149.40.57.133-2468 | 60.585MB
+  - 6.6MB/s 🇺🇸US_4|1.5MB/s
+  - 6.5MB/s 🇨🇦CA_1|1.2MB/s
+  - 6.3MB/s 🇺🇸US-198.98.53.130-0281 | 187.447MB
+  - 6.2MB/s 🇺🇸US_6|1.7MB/s
+  - 6.1MB/s 🇺🇸US-38.60.157.143-2508 | 6.499MB
+  - 6.1MB/s 🇺🇸US_7|3.3MB/s
+  - 6.1MB/s 🇺🇸US_15|1.4MB/s
+  - 6.1MB/s 🇺🇸US_12|2.8MB/s
+  - 6.0MB/s 🇺🇸US_9|3.4MB/s
+  - '6.0MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #8'
+  - 5.8MB/s 🇺🇸US-162.251.62.31-2471
+  - 5.8MB/s 🇺🇸US-169.197.140.218-0142 | 68.348MB
+  - 5.5MB/s 🇺🇸US-169.197.142.68-2470 | 76.276MB
+  - 5.4MB/s 🇺🇸US-185.230.230.18-0199 | 232.194MB
+  - 5.3MB/s 🇺🇸US-173.244.56.6-0191 | 77.605MB
+  - 5.3MB/s 🇲🇽[www.v2nodes.com] ss-MX-1564...
+  - 4.9MB/s 🇺🇸US-173.244.56.9-0190 | 57.816MB
+  - '4.8MB/s 🇨🇦[www.v2nodes.com] trojan-CA-... #3'
+  - 4.7MB/s 🇺🇸US_3|1.8MB/s
+  - 4.2MB/s US_speednode_0040
+  - 4.0MB/s 🇺🇸US_2|1.5MB/s
+  - 4.0MB/s 🇺🇸US_1|2.4MB/s
+  - 3.1MB/s @confiig_hub
+  - '2.7MB/s 🇬🇧[www.v2nodes.com] ss-GB-1615... #1'
+  - 2.7MB/s 🇪🇸ES-5.188.181.201-7459 | 4.726MB
+  - '2.7MB/s Telegram@vpnjey #4'
+  - 2.7MB/s 🇬🇧[www.v2nodes.com] ss-GB-1451...
+  - 2.6MB/s AE-151.241.19.29-0148 | 96.057MB
+  - 2.5MB/s 🇬🇧GB_3|1.0MB/s
+  - 2.5MB/s 🇳🇱[www.v2nodes.com] ss-NL-1614...
+  - 2.5MB/s 🇳🇱 荷兰 | NLD 8
+  - '0.3MB/s 🇺🇸 美国 | USA #4'
+  - '2.0MB/s 🇩🇪 德国 | DEU #3'
+  - 1.2MB/s 🇯🇵[www.v2nodes.com] vless-JP-1...
+- name: 🐟 手动选择(按速度排序)
+  type: select
+  proxies: *id001
+rules:
+- MATCH,🚀 自动选择

@@ -1,0 +1,245 @@
+{
+  "version": 1,
+  "servers": [
+    {
+      "id": "0366b232-25a5-31c4-841d-54ad8bdd4290",
+      "remarks": "14.9MB/s 🇺🇸 美国 | USA 5",
+      "server": "88.216.254.18",
+      "server_port": 1080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA"
+    },
+    {
+      "id": "af9cdd64-f4b5-3819-b0c6-b44ac73faf74",
+      "remarks": "12.1MB/s 🇺🇸US-156.146.38.167-5356 | 94.566MB",
+      "server": "156.146.38.167",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "id": "273e24b6-e51f-3862-8fb8-febe19d55fda",
+      "remarks": "11.6MB/s 🇺🇸[www.v2nodes.com] ss-US-1616... #1",
+      "server": "167.88.62.203",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "8c4ce79b-8ff1-318a-851a-3ea9d7d285db",
+      "remarks": "8.6MB/s 🇺🇸US-37.19.198.244-0143 | 61.997MB",
+      "server": "37.19.198.244",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "id": "d8f0d4be-64ce-3a81-ab1d-19ef2656b799",
+      "remarks": "7.9MB/s 🇺🇸US-37.19.198.243-0147 | 69.352MB",
+      "server": "37.19.198.243",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "id": "412112df-f07f-3d18-9b48-39271b0bebc1",
+      "remarks": "7.7MB/s 🇨🇦CA-137.184.174.93-0176 | 37.538MB",
+      "server": "137.184.174.93",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
+    },
+    {
+      "id": "32944b97-1a87-355d-b2cf-e0f5e0d8c79f",
+      "remarks": "7.4MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #9",
+      "server": "38.128.66.32",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "ced01070-0066-3206-b048-4aa1d6b4d701",
+      "remarks": "7.4MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #11",
+      "server": "172.111.36.123",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "a68008b1-f5a0-3616-a03e-164db27120d1",
+      "remarks": "7.4MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #1",
+      "server": "38.121.43.225",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "da39738c-d4de-35e3-88fb-1fbbb600c5b3",
+      "remarks": "7.3MB/s 🇺🇸US-167.88.63.99-2463 | 60.936MB",
+      "server": "167.88.63.99",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "8ea26401-a2d3-3c52-bbea-87dca73b2c1c",
+      "remarks": "7.0MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #6",
+      "server": "38.121.43.18",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "f26dd8ee-d076-37a1-acfa-a6a72fbe5dbc",
+      "remarks": "6.9MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #7",
+      "server": "137.184.89.151",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "020bf0d6-19fd-3713-8768-56380f5b89e1",
+      "remarks": "6.8MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #12",
+      "server": "38.22.17.129",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "ec22f1d4-b26d-3fec-8736-15d3a1eb368e",
+      "remarks": "6.7MB/s 🇺🇸US-149.40.57.133-2468 | 60.585MB",
+      "server": "149.40.57.133",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "8ac22a0e-a321-3e52-aa68-1c911e5e0052",
+      "remarks": "6.3MB/s 🇺🇸US-198.98.53.130-0281 | 187.447MB",
+      "server": "198.98.53.130",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "eDfN7SODQceIOmIAbtJJtK"
+    },
+    {
+      "id": "d32dd623-d90c-3c14-a2d8-b1784fd17707",
+      "remarks": "6.0MB/s 🇺🇸[www.v2nodes.com] ss-US-1615... #8",
+      "server": "38.91.100.39",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "c493229c-0cae-3b15-9f70-7336f08b1bd2",
+      "remarks": "5.8MB/s 🇺🇸US-162.251.62.31-2471",
+      "server": "162.251.62.31",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "bd156aaa-7232-32ec-8d7d-830bfc3af5e9",
+      "remarks": "5.5MB/s 🇺🇸US-169.197.142.68-2470 | 76.276MB",
+      "server": "169.197.142.68",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "91456b2a-9f76-31e3-98cd-1ac4ef0d7ea9",
+      "remarks": "5.4MB/s 🇺🇸US-185.230.230.18-0199 | 232.194MB",
+      "server": "185.230.230.18",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "c0970d6d-5992-3ddb-850c-2188de4fa34f",
+      "remarks": "5.3MB/s 🇺🇸US-173.244.56.6-0191 | 77.605MB",
+      "server": "173.244.56.6",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "id": "cfba656a-136b-39e4-94de-95142189221d",
+      "remarks": "5.3MB/s 🇲🇽[www.v2nodes.com] ss-MX-1564...",
+      "server": "64.177.90.30",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "BWyPPTusFKhGgzKh"
+    },
+    {
+      "id": "880c4a8d-f304-340b-84e9-7243b4496d18",
+      "remarks": "4.9MB/s 🇺🇸US-173.244.56.9-0190 | 57.816MB",
+      "server": "173.244.56.9",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "id": "d91a494c-13ea-31d0-8b6b-0c7c979bdfd4",
+      "remarks": "2.7MB/s 🇬🇧[www.v2nodes.com] ss-GB-1615... #1",
+      "server": "38.114.120.221",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "136f74c3-2b85-3bad-bd07-eb5bdd4275d8",
+      "remarks": "2.7MB/s 🇪🇸ES-5.188.181.201-7459 | 4.726MB",
+      "server": "5.188.181.201",
+      "server_port": 9030,
+      "method": "aes-256-cfb",
+      "password": "GeregetR8cvQHzYr"
+    },
+    {
+      "id": "7e49653c-df3a-3325-a8b4-cde8e82450b6",
+      "remarks": "2.7MB/s 🇬🇧[www.v2nodes.com] ss-GB-1451...",
+      "server": "158.173.24.73",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "id": "ed938c14-3711-39fd-9a8a-8dab6078d984",
+      "remarks": "2.6MB/s AE-151.241.19.29-0148 | 96.057MB",
+      "server": "151.241.19.29",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "72565872-b2dc-384a-97da-382a76ef2e89",
+      "remarks": "2.5MB/s 🇳🇱[www.v2nodes.com] ss-NL-1614...",
+      "server": "151.241.19.36",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "id": "951b512e-ab64-38f2-9649-5ba22761a532",
+      "remarks": "2.4MB/s 🇬🇧GB-82.38.31.212-0181 | 78.42MB",
+      "server": "82.38.31.212",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "id": "d28a32b7-aac8-32a9-9e65-7c42f77fa7c1",
+      "remarks": "2.4MB/s 🇬🇧GB-82.38.31.49-0233 | 23.394MB",
+      "server": "82.38.31.49",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "id": "257b9055-3acd-3cb7-a839-43197d14f10f",
+      "remarks": "2.4MB/s 🇬🇧GB-178.83.185.156-0280 | 21.186MB",
+      "server": "178.83.185.156",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    }
+  ]
+}
